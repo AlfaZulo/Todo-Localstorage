@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="registar.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Регистър</title>
+</head>
+<body>
+
+    <div class="container">
+        <h2>Регистър</h2>
+          <form id="reg-form">
+            <div class="form-group">
+              <label for="name">Име</label></br>
+              <input type="text" id="name">
+            </div>
+            <div class="form-group">
+              <label for="job">Длъжност</label></br>
+              <input type="text" id="job" >
+            </div>
+            <div class="form-group">
+              <label for="tell">Телефон</label></br>
+              <input type="text" id="tell" >
+            </div>
+            <input type="submit" value="Добави" >
+          </form>
+          <table class="table table-striped mt-5">
+            <thead>
+              <tr>
+                <th>Име</th>
+                <th>Длъжност</th>
+                <th>Телефон</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody id="reg-list"></tbody>
+          </table>
+      </div>
+<script src="registar.js"></script>    
+</body>
+</html>

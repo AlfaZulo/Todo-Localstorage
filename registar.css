@@ -1,0 +1,40 @@
+body{
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+padding:30px; 
+   
+}
+
+.container{  
+    border-radius: 1rem;
+    border: 3px solid white;           
+    background-color:rgba(10, 10, 12, 0.562);
+    width: 500px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold    
+  }
+  h2 {
+    border-bottom: 1px solid #bbb;
+    padding-bottom: 5px;
+    margin-bottom: 12px;
+    text-align: center;
+    color: black;
+    
+    
+  }
+        input[type="submit"] {
+        margin:30px;
+        font-size: 20px;
+        height:40px;
+        width: 150px;
+        text-align: center;
+        background-color: orangered;
+        border-radius: 5px;
+        margin-left: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+   
